@@ -3,10 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>About Me</title>
+  <!-- Link to the new style sheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Bekouche Youba</h1>
+    <!--Added the class site-title -->
+    <h1 class="site-title">Bekouche Youba</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="notes.html">Notes</a>
@@ -17,7 +20,8 @@
     <article>
       <h2>About Me</h2>
 
-      <img src="images/my-photo.jpg" alt="Photo of Bekouche Youba" width="300">
+      <!-- Added the id my-image -->
+      <img id="my-image" src="images/my-photo.jpg" alt="Photo of Bekouche Youba" width="300">
 
       <p>
         Hello, my name is Bekouche Youba. I am currently pursuing my studies at <abbr title="Algonquin College">AC</abbr>, where I am deeply passionate about mastering frontend technologies and web development. This field fascinates me because it combines logical problem-solving with creative visual design. I am <em>highly motivated</em> to learn how modern web applications are structured, and I look forward to applying these valuable technical skills to build real-world projects that are both accessible and completely user-friendly for everyone.
@@ -33,7 +37,8 @@
       </blockquote>
 
       <h2>My Hobbies</h2>
-      <ul>
+      <!-- Added a class here so we can target just this list in the CSS -->
+      <ul class="hobby-list">
         <li>
           <strong>Reading:</strong> I enjoy reading books and online articles to learn new things and improve my knowledge.
         </li>
