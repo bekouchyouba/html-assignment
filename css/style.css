@@ -1,0 +1,47 @@
+/* Target the body tag for font styling */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin: 20px;
+}
+
+/* Select both header and footer elements for background color */
+header, footer {
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+/* Class selector to change main heading text color */
+.site-title {
+  color: #2c3e50;
+}
+
+/* Id selector to add precise box-shadow to your image */
+#my-image {
+  box-shadow: 0px 0px 2px 1px black;
+}
+
+/* Replace the hobby list bullets with squares */
+.hobby-list {
+  list-style-type: square;
+}
+
+/* Use nth-child selector to add a background to odd list items */
+.hobby-list li:nth-child(odd) {
+  background-color: #eaf2f8;
+}
+
+/* Navigation link modifications */
+nav a {
+  text-decoration: none;      /* Remove underlines */
+  background-color: #ffffff;   /* Add link background */
+  border: 1px solid #2c3e50;  /* Add link border */
+  padding: 5px 10px;
+  color: #2c3e50;
+}
+
+/* Change background color on hover or focus state */
+nav a:hover, nav a:focus {
+  background-color: #2c3e50;
+  color: #ffffff;
+}
